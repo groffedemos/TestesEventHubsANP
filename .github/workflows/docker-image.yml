@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/sitequestao-eventhubs-dotnet6-anp
+  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/sitequestao-eventhubs-dotnet6-reactor
   DIR_WEBAPP: './SiteQuestaoEventHub'
   
 jobs:
